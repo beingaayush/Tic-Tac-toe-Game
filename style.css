@@ -38,30 +38,30 @@ body {
 
 }
 
-#resetbtn{
+#reset-game {
     padding: 1rem;
     border-radius: 15px;
     background-color: #E5689A;
     color: snow;
     font-size: 15px;
-    border: none;
+    /* border: none; */
 }
 
-#newgame{
+#new-game {
     padding: 1rem;
     border-radius: 15px;
     background-color: #E5689A;
     color: snow;
     font-size: 15px;
-    border: none; 
+    /* border: none;  */
 }
 
-.winmsg{
+.winmsg {
     /* color: ; */
     font-size: 5vmin;
 }
 
-.winalert{
+.winalert {
     height: 100vmin;
     display: flex;
     flex-direction: column;
@@ -70,6 +70,26 @@ body {
     gap: 4rem;
 }
 
-.hide{
+.hide {
     display: none;
+}
+
+#mode{
+    margin-top: 10px;
+    margin-right: 1430px;
+    padding: 1rem;
+    border-radius: 50px;
+    background-color: #E5689A;
+    color: snow;
+    font-size: 15px;
+}
+
+.light{
+    background-color: #99B2DD;
+    color: #3A405A;
+}
+
+.dark{
+    background-color:#191716 ;
+    color:#E6AF2E ;
 }
