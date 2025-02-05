@@ -93,3 +93,14 @@ body {
     background-color:#191716 ;
     color:#E6AF2E ;
 }
+
+/* disable vertical and horizontal scroll in mobile */
+
+html, body {
+    overflow-x: hidden;
+    overflow-Y: hidden;
+
+    }
+    body {
+    position: relative
+    }
